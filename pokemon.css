@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-image: url('https://images.wikidexcdn.net/mwuploads/wikidex/4/40/latest/20180112041336/EP999_Jigglypuff.png');
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pokemones{
+    width: 300px;
+    background-color: palevioletred;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+
+}
+
+input{
+    border-radius: 10px;
+    border-style: solid ;
+    padding: 5px;
+    margin: 10px;
+    height: 15px;
+    
+}
